@@ -1,0 +1,60 @@
+{
+  "bounds": [
+    2.5488,
+    50.6268,
+    5.8502,
+    51.4934
+  ],
+  "center": [
+    3.7189,
+    51.0457,
+    9
+  ],
+  "format": "png8",
+  "interactivity": false,
+  "minzoom": 0,
+  "maxzoom": 16,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "id": "countries",
+      "name": "countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape"
+      }
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        2.58350399201762,
+        50.6580810177371,
+        5.79291199241652,
+        51.4544640174374
+      ],
+      "id": "bike",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/angel/ws/fietstelweek/dataset/geoviz/ftw2016.bike.network.shp.zip",
+        "id": "bike",
+        "project": "ftw2016",
+        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+      },
+      "layer": null,
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {},
+      "name": "bike"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "ftw2016",
+  "description": "Fietstelweek 2016 maps",
+  "attribution": ""
+}
