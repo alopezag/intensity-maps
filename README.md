@@ -2,6 +2,8 @@
 
 Intensity and speed maps using Tilemill
 
+<img width="965" alt="screen shot 2017-02-10 at 12 10 56" src="https://cloud.githubusercontent.com/assets/7943442/22824815/0d8ebbc8-ef8a-11e6-9868-70a8cd14172c.png">
+
 **Tools:**
 
 - Tilemill: https://tilemill-project.github.io/tilemill/
